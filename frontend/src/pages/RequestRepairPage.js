@@ -124,17 +124,17 @@ const RequestRepairPage = () => {
             
             {/* Alert Box */}
             <div style={{ 
-              background: 'rgba(255, 67, 16, 0.1)', 
-              border: '1px solid var(--brand-orange)',
+              background: 'rgba(236, 72, 153, 0.1)', 
+              border: '1px solid var(--brand-pink)',
               borderRadius: '12px',
               padding: '20px',
               marginBottom: '40px',
               display: 'flex',
               alignItems: 'flex-start'
             }}>
-              <AlertCircle size={24} color="var(--brand-orange)" style={{ marginRight: '12px', marginTop: '2px' }} />
+              <AlertCircle size={24} color="var(--brand-pink)" style={{ marginRight: '12px', marginTop: '2px' }} />
               <div>
-                <h3 className="heading-4" style={{ color: 'var(--brand-orange)', marginBottom: '8px' }}>
+                <h3 className="heading-4" style={{ color: 'var(--brand-pink)', marginBottom: '8px' }}>
                   Important Notice
                 </h3>
                 <p className="body-md text-secondary">
