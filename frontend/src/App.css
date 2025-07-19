@@ -223,8 +223,8 @@ body {
 }
 
 .nav-link:hover {
-  background: rgba(0, 96, 52, 0.1);
-  color: var(--brand-green);
+  background: rgba(139, 92, 246, 0.1);
+  color: var(--brand-purple);
 }
 
 /* Layout System */
