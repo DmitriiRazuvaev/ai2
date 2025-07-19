@@ -74,6 +74,82 @@ const HomePage = () => {
           <p className="body-lg text-secondary text-center" style={{ marginBottom: '60px' }}>
             We specialize in laser printers and plotters from leading manufacturers
           </p>
+          
+          {/* Equipment Images Showcase */}
+          <div className="equipment-grid">
+            <div className="equipment-card">
+              <img 
+                src="https://images.unsplash.com/photo-1612815154858-60aa4c59eaa6" 
+                alt="HP Multifunction Printer" 
+                className="equipment-image"
+              />
+              <div className="equipment-card-content">
+                <h3 className="heading-4 text-primary">HP LaserJet Series</h3>
+                <p className="body-sm text-secondary">Professional multifunction laser printers for office environments</p>
+              </div>
+            </div>
+            
+            <div className="equipment-card">
+              <img 
+                src="https://images.unsplash.com/photo-1650094980833-7373de26feb6" 
+                alt="Office Copying Machine" 
+                className="equipment-image"
+              />
+              <div className="equipment-card-content">
+                <h3 className="heading-4 text-primary">Commercial Copiers</h3>
+                <p className="body-sm text-secondary">High-volume copying machines for business operations</p>
+              </div>
+            </div>
+            
+            <div className="equipment-card">
+              <img 
+                src="https://images.unsplash.com/photo-1693031630369-bd429a57f115" 
+                alt="Large Format Printer" 
+                className="equipment-image"
+              />
+              <div className="equipment-card-content">
+                <h3 className="heading-4 text-primary">Large Format Plotters</h3>
+                <p className="body-sm text-secondary">Professional plotting equipment for technical drawings and posters</p>
+              </div>
+            </div>
+            
+            <div className="equipment-card">
+              <img 
+                src="https://images.unsplash.com/photo-1675263943038-286c7fd18eaa" 
+                alt="Printer Cartridge System" 
+                className="equipment-image"
+              />
+              <div className="equipment-card-content">
+                <h3 className="heading-4 text-primary">Ink & Toner Systems</h3>
+                <p className="body-sm text-secondary">Professional maintenance of all printing system components</p>
+              </div>
+            </div>
+            
+            <div className="equipment-card">
+              <img 
+                src="https://images.unsplash.com/photo-1706895040634-62055892cbbb" 
+                alt="Color Printing System" 
+                className="equipment-image"
+              />
+              <div className="equipment-card-content">
+                <h3 className="heading-4 text-primary">Color Printing Systems</h3>
+                <p className="body-sm text-secondary">High-quality color laser printers for professional output</p>
+              </div>
+            </div>
+            
+            <div className="equipment-card">
+              <img 
+                src="https://images.unsplash.com/photo-1693031630146-568e2f72db0e" 
+                alt="Digital Cutting Printer" 
+                className="equipment-image"
+              />
+              <div className="equipment-card-content">
+                <h3 className="heading-4 text-primary">Digital Cutting Systems</h3>
+                <p className="body-sm text-secondary">Advanced plotters with precision cutting capabilities</p>
+              </div>
+            </div>
+          </div>
+
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '32px', marginBottom: '60px' }}>
             {mockData.equipmentBrands.map((brand, index) => (
               <div key={index} style={{ 
@@ -98,7 +174,7 @@ const HomePage = () => {
             border: '1px solid var(--border-light)',
             textAlign: 'center'
           }}>
-            <h3 className="heading-3 text-primary" style={{ marginBottom: '16px', color: 'var(--brand-orange)' }}>
+            <h3 className="heading-3 text-primary" style={{ marginBottom: '16px', color: 'var(--brand-pink)' }}>
               Important Note
             </h3>
             <p className="body-lg text-secondary">
