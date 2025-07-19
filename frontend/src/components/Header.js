@@ -1,6 +1,6 @@
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
-import { Phone, Mail } from "lucide-react";
+import { Phone, Mail, Printer } from "lucide-react";
 
 const Header = () => {
   const location = useLocation();
@@ -9,19 +9,22 @@ const Header = () => {
     <header className="design-header">
       <div className="nav-container">
         <Link to="/" className="nav-logo">
+          <div className="logo-icon">
+            <Printer size={18} />
+          </div>
           Complex Print
         </Link>
         
         <nav className="nav-menu">
           <Link 
             to="/" 
-            className={`nav-link ${location.pathname === '/' ? 'text-green' : ''}`}
+            className={`nav-link ${location.pathname === '/' ? 'text-purple' : ''}`}
           >
             Home
           </Link>
           <Link 
             to="/request-repair" 
-            className={`nav-link ${location.pathname === '/request-repair' ? 'text-green' : ''}`}
+            className={`nav-link ${location.pathname === '/request-repair' ? 'text-purple' : ''}`}
           >
             Request Repair
           </Link>
