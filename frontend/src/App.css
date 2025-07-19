@@ -2,33 +2,37 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 
-/* Foundation Colors */
+/* Foundation Colors - Pink & Purple Theme */
 :root {
-  /* Backgrounds - Exact Colors */
-  --bg-page: #F8F5F1;              /* Main page background (cream) */
+  /* Backgrounds - Pink & Purple Theme */
+  --bg-page: #FDF2F8;              /* Light pink background */
   --bg-card: #FFFFFF;              /* Card and section backgrounds */
-  --bg-subtle: #F8F5F1;            /* Input fields, subtle areas */
+  --bg-subtle: #FCE7F3;            /* Subtle pink areas */
   --bg-section: #FFFFFF;           /* Section backgrounds */
   
-  /* Text - Exact Colors */
-  --text-primary: #1A1A1A;         /* Main headings and content */
-  --text-secondary: #484848;       /* Supporting text */
-  --text-muted: #707070;           /* Captions, timestamps */
-  --text-link: #333333;            /* Navigation links */
+  /* Text - Dark colors for readability */
+  --text-primary: #1F2937;         /* Main headings and content */
+  --text-secondary: #4B5563;       /* Supporting text */
+  --text-muted: #6B7280;           /* Captions, timestamps */
+  --text-link: #374151;            /* Navigation links */
   
-  /* Borders - Exact Colors */
-  --border-light: #E4E4E4;         /* Subtle separators */
-  --border-medium: #BABABA;        /* Standard borders */
-  --border-strong: #767676;        /* Emphasized borders */
+  /* Borders - Soft borders */
+  --border-light: #F3E8FF;         /* Light purple borders */
+  --border-medium: #DDD6FE;        /* Medium purple borders */
+  --border-strong: #C4B5FD;        /* Strong purple borders */
   
-  /* MAIN ACCENT COLORS - Brand Colors Only */
-  --brand-green: #006034;          /* Primary CTA buttons */
-  --green-hover: #00502C;          /* Green hover state */
-  --green-active: #004024;         /* Green active state */
+  /* MAIN ACCENT COLORS - Pink & Purple Theme */
+  --brand-purple: #8B5CF6;         /* Primary purple for buttons */
+  --purple-hover: #7C3AED;         /* Purple hover state */
+  --purple-active: #6D28D9;        /* Purple active state */
   
-  --brand-orange: #FF4310;         /* Orange highlights */
-  --orange-hover: #EB3906;         /* Orange hover state */
-  --orange-active: #D72F00;        /* Orange active state */
+  --brand-pink: #EC4899;           /* Pink highlights */
+  --pink-hover: #DB2777;           /* Pink hover state */
+  --pink-active: #BE185D;          /* Pink active state */
+  
+  /* Gradients for special elements */
+  --gradient-purple-pink: linear-gradient(135deg, #8B5CF6 0%, #EC4899 100%);
+  --gradient-light: linear-gradient(135deg, #F3E8FF 0%, #FCE7F3 100%);
 }
 
 /* Typography */
