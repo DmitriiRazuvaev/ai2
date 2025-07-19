@@ -1,5 +1,5 @@
 import React from "react";
-import { Phone, Mail, MapPin, Clock } from "lucide-react";
+import { Phone, Mail, MapPin, Clock, Printer } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -18,14 +18,27 @@ const Footer = () => {
           
           {/* Company Info */}
           <div>
-            <h3 style={{ 
-              fontSize: '24px', 
-              fontWeight: '700', 
-              color: 'var(--brand-green)', 
-              marginBottom: '20px' 
-            }}>
-              Complex Print
-            </h3>
+            <div style={{ display: 'flex', alignItems: 'center', gap: '12px', marginBottom: '20px' }}>
+              <div style={{
+                width: '40px',
+                height: '40px',
+                background: 'linear-gradient(135deg, #8B5CF6 0%, #EC4899 100%)',
+                borderRadius: '8px',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center'
+              }}>
+                <Printer size={20} color="white" />
+              </div>
+              <h3 style={{ 
+                fontSize: '24px', 
+                fontWeight: '700', 
+                color: 'white', 
+                margin: 0
+              }}>
+                Complex Print
+              </h3>
+            </div>
             <p style={{ 
               lineHeight: '1.6', 
               marginBottom: '20px', 
@@ -35,19 +48,19 @@ const Footer = () => {
               Save money and extend your equipment's lifespan with our expert technicians.
             </p>
             <div style={{ display: 'flex', alignItems: 'center', marginBottom: '12px' }}>
-              <Phone size={16} style={{ marginRight: '12px', color: 'var(--brand-orange)' }} />
+              <Phone size={16} style={{ marginRight: '12px', color: '#EC4899' }} />
               <a href="tel:+7-XXX-XXX-XX-XX" style={{ color: 'white', textDecoration: 'none' }}>
                 +7 (XXX) XXX-XX-XX
               </a>
             </div>
             <div style={{ display: 'flex', alignItems: 'center', marginBottom: '12px' }}>
-              <Mail size={16} style={{ marginRight: '12px', color: 'var(--brand-orange)' }} />
+              <Mail size={16} style={{ marginRight: '12px', color: '#EC4899' }} />
               <a href="mailto:info@complexprint.ru" style={{ color: 'white', textDecoration: 'none' }}>
                 info@complexprint.ru
               </a>
             </div>
             <div style={{ display: 'flex', alignItems: 'flex-start' }}>
-              <MapPin size={16} style={{ marginRight: '12px', color: 'var(--brand-orange)', marginTop: '2px' }} />
+              <MapPin size={16} style={{ marginRight: '12px', color: '#EC4899', marginTop: '2px' }} />
               <span style={{ color: '#B0B0B0' }}>
                 Moscow, Russia<br />
                 Service area: Moscow and surrounding regions
@@ -117,7 +130,7 @@ const Footer = () => {
               ))}
             </div>
             <p style={{ 
-              color: 'var(--brand-orange)', 
+              color: '#EC4899', 
               fontSize: '14px', 
               marginTop: '16px',
               fontWeight: '500'
@@ -137,7 +150,7 @@ const Footer = () => {
               Working Hours
             </h4>
             <div style={{ display: 'flex', alignItems: 'flex-start', marginBottom: '16px' }}>
-              <Clock size={16} style={{ marginRight: '12px', color: 'var(--brand-orange)', marginTop: '2px' }} />
+              <Clock size={16} style={{ marginRight: '12px', color: '#EC4899', marginTop: '2px' }} />
               <div>
                 <div style={{ marginBottom: '8px', color: '#B0B0B0' }}>
                   <strong style={{ color: 'white' }}>Monday - Friday:</strong> 9:00 - 18:00
@@ -151,7 +164,7 @@ const Footer = () => {
               </div>
             </div>
             <p style={{ 
-              color: 'var(--brand-green)', 
+              color: '#8B5CF6', 
               fontSize: '14px',
               fontWeight: '500'
             }}>
