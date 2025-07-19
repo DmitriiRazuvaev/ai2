@@ -365,7 +365,7 @@ body {
 /* Focus States */
 .btn-primary:focus,
 .nav-link:focus {
-  outline: 2px solid var(--brand-green);
+  outline: 2px solid var(--brand-purple);
   outline-offset: 2px;
 }
 
