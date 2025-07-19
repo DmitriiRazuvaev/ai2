@@ -195,6 +195,37 @@ const HomePage = () => {
             Our quality is confirmed by extensive experience serving large companies and 
             working in authorized service centers
           </p>
+
+          {/* Service Demonstration Images */}
+          <div className="service-demo">
+            <div style={{ textAlign: 'center' }}>
+              <img 
+                src="https://images.unsplash.com/photo-1658212676082-312f25b52b3d" 
+                alt="Technician repairing equipment" 
+                className="service-image"
+              />
+              <h4 className="heading-4 text-primary" style={{ marginTop: '16px', marginBottom: '8px' }}>
+                Professional Repair Service
+              </h4>
+              <p className="body-sm text-secondary">
+                Expert technicians with specialized tools and experience
+              </p>
+            </div>
+            <div style={{ textAlign: 'center' }}>
+              <img 
+                src="https://images.unsplash.com/photo-1606485940233-76eeff49360c" 
+                alt="Service team inspection" 
+                className="service-image"
+              />
+              <h4 className="heading-4 text-primary" style={{ marginTop: '16px', marginBottom: '8px' }}>
+                Quality Inspection
+              </h4>
+              <p className="body-sm text-secondary">
+                Thorough testing and quality assurance for every repair
+              </p>
+            </div>
+          </div>
+
           <div className="design-grid">
             <div className="design-card">
               <div className="card-icon">
@@ -230,8 +261,8 @@ const HomePage = () => {
               <div style={{ display: 'flex', flexWrap: 'wrap', gap: '12px' }}>
                 {mockData.serviceCenters.map((center, index) => (
                   <span key={index} style={{ 
-                    background: 'rgba(0, 96, 52, 0.1)', 
-                    color: 'var(--brand-green)',
+                    background: 'rgba(139, 92, 246, 0.1)', 
+                    color: 'var(--brand-purple)',
                     padding: '8px 16px', 
                     borderRadius: '24px',
                     fontSize: '14px',
