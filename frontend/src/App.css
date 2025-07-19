@@ -186,8 +186,24 @@ body {
 .nav-logo {
   font-size: 24px;
   font-weight: 700;
-  color: var(--brand-green);
+  color: var(--brand-purple);
   text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.logo-icon {
+  width: 32px;
+  height: 32px;
+  background: var(--gradient-purple-pink);
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: 700;
+  font-size: 14px;
 }
 
 .nav-menu {
