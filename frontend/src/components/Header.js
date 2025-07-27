@@ -29,10 +29,10 @@ const Header = () => {
             Request Repair
           </Link>
           <div style={{ display: 'flex', alignItems: 'center', gap: '16px', marginLeft: '16px' }}>
-            <a href="tel:+7-XXX-XXX-XX-XX" className="btn-icon" title="Call us">
+            <a href="tel:+79104297686" className="btn-icon" title="Call us">
               <Phone size={20} />
             </a>
-            <a href="mailto:info@complexprint.ru" className="btn-icon" title="Email us">
+            <a href="mailto:9104297686@outlook.com" className="btn-icon" title="Email us">
               <Mail size={20} />
             </a>
           </div>
